@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Mine Sweeper Game</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		
+
+		<!-- Menu Area-->
+		
+		<div id="menu" class="visible">		
+
+			<h1>Mine Sweeper</h1>
+				
+			<fieldset>
+				<legend>Game information:</legend>
+					<br>
+					Board Height:<br>
+					<input type="text" id="height" placeholder="Board height">
+					<br>
+					Board Width:<br>
+					<input type="text" id="width" placeholder="Board width">
+					<br>
+					Number of Mines:<br>
+					<input type="text" id="mines" placeholder="Number of mines">
+					<br><br>
+
+					<input id = "submitForm" type="submit" value="Submit" onclick="submitGameData()">					  
+			</fieldset>
+
+
+			<div id="messageArea"></div>
+		</div>
+
+		<!-- Game Area -->
+		<table id="gameArea"></table>
+		
+<!--
+		<footer>
+		Created By: Dor Amar
+		</footer>
+-->
+		
+		<script src="js/mineSweeper.js"></script>
+	</body>
+</html>

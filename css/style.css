@@ -1,0 +1,99 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+
+body{
+	
+	background-image: url(../img/fieldC.jpg);
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	margin: auto;
+	text-align: center;
+}
+
+h1{
+	font-size: 3em;
+	font-weight: 700;
+	margin-bottom: 12px;
+	margin-top: 12px;
+}
+
+fieldset{
+	margin-bottom: 10px;
+	border-radius: 25px;
+	background-color: #779CA2;
+}
+
+legend{
+	font-size: 1.3em;
+}
+
+input{
+	height: 20px;
+	width: 170px;
+	text-align: center;
+}
+
+
+#messageArea{
+ 	background: rgba(4, 117, 111, 0.28); 
+	font-size: 1.5em;
+	height: 30px;
+	margin-bottom: 15px;
+	border: 1px solid grey;
+	border-radius: 25px;
+}
+
+#gameArea{
+	border: 1px solid grey;
+	margin: auto;
+	background-color: rgba(190, 190, 190, 0.83);
+	cursor: crosshair;
+
+}
+
+#gameArea td{
+	
+	color: #FF8C00;
+	background-color: #04756F;
+	text-align: center;
+	border: 1px solid black;
+	padding: 15px 20px 15px 20px;
+	opacity: 0.0;
+	height: 20px;
+	width: 10px;
+}
+
+
+#gameArea .mine{
+	background-image: url(../img/mineBG2.jpg); !important;
+}
+
+#gameArea .marked{
+	background-color: #9EA023; !important;
+	opacity: 1;
+
+}
+
+img{
+	height: 25px;
+	width: 25px;
+}
+
+
+.visible{
+	opacity: 1;
+	
+}
+
+.hidden{
+	display: none;
+}
+
+footer{
+	position: absolute;
+	bottom: 55px;
+	left: 10px;
+	font-weight: 400;
+	color: #0D3835;
+}
